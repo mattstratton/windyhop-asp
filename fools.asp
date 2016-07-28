@@ -1,0 +1,1 @@
+<% Option Explicit %><!-- #include file="include/top.txt" -->	  <h1>April Fools!!!!!!!!!</h1>	  <h2>Love, Punches and Mugsy</h2>	  <p>	  <a href = "default.asp" target = "_top">Return to the <b>real</b> Windyhop</a><!-- #include file="include/bottom.txt" -->

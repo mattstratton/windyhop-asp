@@ -1,0 +1,1 @@
+<% Option Explicit %><!-- #include file="../include/top.txt" --><h1>About Windyhop</h1><a href=./faq.asp><h2> Frequently Asked Questions</h2></a><a href=./contact.asp><h2> Contact Windyhop </h2></a><!-- Commented out for now<a href=./credits.asp><h2> Credits </h2></a>-->

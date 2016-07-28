@@ -1,0 +1,1 @@
+<!-- #include file="../include/newtop.txt" --> <H1>CHICAGO'S SWING AND LINDYHOP SCENE</h1><p>Take a look at what we have to offer interms of atmosphere and local talent.</p><p><a HREF="/shc/view.asp?table=venue">Chicagoland Venues</a></p><p><a HREF="/shc/view.asp?table=band">Local Bands</a></p><!-- #include file="../include/newbottom.txt" -->

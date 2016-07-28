@@ -1,0 +1,1 @@
+<!-- #include file="../include/sendmail.inc" --> <%strName = Request("name")strSender = Request("from")strTo = Request("to")SendMail "MailTest", strSender, strTo,"test from matt","this is a Jmail test from Matt. Disregard."Response.Write("Successfully sent email to " & strTo & " from " & strSender)%>

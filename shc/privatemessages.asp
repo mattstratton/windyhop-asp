@@ -1,0 +1,1 @@
+<%Response.Redirect("../cgi-bin/ultimatebb.cgi?ubb=my_profile")%>

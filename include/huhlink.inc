@@ -1,0 +1,1 @@
+<%Function huhLink(strTerm,strText)	Dim strText2		If strText = "" Then		strText2 = MOREINFO	Else		strText2 = strText	End If	huhLink = "<a href=javascript:popUp('whatsthis.asp?term="&strTerm&"') alt=huh?>"&strText2& "</a>"End Function%>

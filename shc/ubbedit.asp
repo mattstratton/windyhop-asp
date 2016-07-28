@@ -1,0 +1,1 @@
+<%'Response.Redirect("edituser.asp?userid=" & Session("userid"))Response.Redirect("/cgi-bin/ultimatebb.cgi?ubb=edit_my_profile")%>

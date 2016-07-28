@@ -1,0 +1,1 @@
+<% Option Explicit Select Case Request("Tab")Case "CSDS"	Response.Redirect("/csds/index.htm")Case "SS"	Response.Redirect("/ssu/index.htm")Case "SHC"	Response.Redirect("/shc/welcome.asp")Case Else	Response.Write("No session defined")End Select%>

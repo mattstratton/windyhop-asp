@@ -1,0 +1,1 @@
+<SCRIPT LANGUAGE=javascript><!--function refresh_mainpage(){	var current_page;	current_page = parent.Main.location.href;	parent.Main.location.href = current_page;	//alert("wassup?");}//--></SCRIPT>

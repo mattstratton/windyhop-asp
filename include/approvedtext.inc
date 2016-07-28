@@ -1,0 +1,1 @@
+<%'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''Function ApprovedText(sApproved)	If sApproved = APPROVED Then		ApprovedText = "APPROVED"	Else		ApprovedText = "<font color=red> NOT APPROVED</font>"	End If	End Function%>

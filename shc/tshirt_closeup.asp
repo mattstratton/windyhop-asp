@@ -1,0 +1,1 @@
+<%Dim strImagestrImage = Request.QueryString("image")%><html><head><LINK REL=STYLESHEET HREF="../include/shc.css"></head><body><center><img src="../images/<%=strImage%>"><br><br><a href="javascript:self.close()">Close Window</a></center></body></html>

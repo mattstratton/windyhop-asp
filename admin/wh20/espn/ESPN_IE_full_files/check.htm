@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><!-- saved from url=(0040)http://games.espn.go.com/threeplay/check --><HTML><HEAD><META content="text/html; charset=windows-1252" http-equiv=Content-Type><SCRIPT>
+function getCookie(NameOfCookie){
+    if (document.cookie.length > 0) {              
+    begin = document.cookie.indexOf(NameOfCookie+"=");       
+    if (begin != -1) {           
+      begin += NameOfCookie.length+1;       
+      end = document.cookie.indexOf(";", begin);
+      if (end == -1) end = document.cookie.length;
+        return unescape(document.cookie.substring(begin, end));
+    } 
+  }
+  return null;
+}
+
+
+function checkPlay(){
+	threeplay=getCookie('threeplay');
+		if (threeplay!=null) {
+		
+	}
+		else {}
+}
+</SCRIPT><SCRIPT language=JavaScript>
+
+    function loginWindow() {
+        var version = parseInt(navigator.appVersion);
+       if (version >= 4)
+       var loginWindow = window.open('http://games.espn.go.com/threeplay/threePC?time=974324382820','3Play','resizable=yes,height=480,width=350');
+   } 
+
+
+</SCRIPT><SCRIPT language=javascript>
+
+var expDays = 1; 
+
+var page = "http://games.espn.go.com/threeplay/threePC?time=974324382820";
+var windowprops = "width=350,height=484";
+
+function GetCookie (name) {  
+var arg = name + "=";  
+var alen = arg.length;  
+var clen = document.cookie.length;  
+var i = 0;  
+while (i < clen) {    
+var j = i + alen;    
+if (document.cookie.substring(i, j) == arg)      
+return getCookieVal (j);    
+i = document.cookie.indexOf(" ", i) + 1;    
+if (i == 0) break;   
+}  
+return null;
+}
+function SetCookie (name, value) {  
+var argv = SetCookie.arguments;  
+var argc = SetCookie.arguments.length;  
+var expires = (argc > 2) ? argv[2] : null;  
+var path = (argc > 3) ? argv[3] : null;  
+var domain = (argc > 4) ? argv[4] : null;  
+var secure = (argc > 5) ? argv[5] : false;  
+document.cookie = name + "=" + escape (value) + 
+((expires == null) ? "" : ("; expires=" + expires.toGMTString())) + 
+((path == null) ? "" : ("; path=" + path)) +  
+((domain == null) ? "" : ("; domain=" + domain)) +    
+((secure == true) ? "; secure" : "");
+}
+function DeleteCookie (name) {  
+var exp = new Date();  
+exp.setTime (exp.getTime() - 1);  
+var cval = GetCookie (name);  
+document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString();
+}
+var exp = new Date(); 
+exp.setTime(exp.getTime() + (expDays*24*60*60*1000));
+function amt(){
+var count = GetCookie('count')
+if(count == null) {
+SetCookie('count','1')
+return 1
+}
+else {
+var newcount = parseInt(count) + 1;
+DeleteCookie('count')
+SetCookie('count',newcount,exp)
+return count
+   }
+}
+function getCookieVal(offset) {
+var endstr = document.cookie.indexOf (";", offset);
+if (endstr == -1)
+endstr = document.cookie.length;
+return unescape(document.cookie.substring(offset, endstr));
+}
+
+function loginWindow() {
+var count = GetCookie('count');
+if (count == null) {
+count=1;
+SetCookie('count', count, exp);
+
+window.open(page, "", windowprops);
+
+}
+else {
+count++;
+SetCookie('count', count, exp);
+   }
+}
+
+</SCRIPT><META content="MSHTML 5.00.3018.900" name=GENERATOR></HEAD><BODY></BODY></HTML>

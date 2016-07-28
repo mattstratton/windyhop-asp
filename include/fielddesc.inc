@@ -1,0 +1,1 @@
+<%Sub FieldDesc(strStrong, strDesc)	Response.Write("<tr bgcolor=" & "white" &" ><td colspan=2><b>" & strStrong & "</b> " & strDesc & "</td></tr>")End Sub%>

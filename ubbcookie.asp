@@ -1,0 +1,1 @@
+<%response.cookies("testme") = Request("ubb")response.cookies("testme").expires = #12/30/2000 00:00:00#response.cookies("testme").path = "/cgi-bin"response.write(request.cookies("testme"))%>

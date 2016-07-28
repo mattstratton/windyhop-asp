@@ -1,0 +1,1 @@
+vti_encoding:SR|utf8-nlvti_timelastmodified:TR|07 Oct 2002 05:47:37 -0000vti_extenderversion:SR|4.0.2.6513vti_cacheddtm:TX|07 Oct 2002 05:47:37 -0000vti_filesize:IR|8413

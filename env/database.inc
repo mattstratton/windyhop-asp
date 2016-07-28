@@ -1,0 +1,1 @@
+<%	'Dim DATABASE 	'CONST DATABASE = "Database=whprod;DSN=whprodSQL;UID=sa;Password=boombatty;" 	CONST DATABASE = "DSN=whstaging"		Dim JOBDB 	JOBDB = "DSN=shcjob"	CONST DOTNETDB = "DSN=dotnetbbv4;uid=sa;password=sql!@#;database=test_forum;"%>

@@ -1,0 +1,1 @@
+<pre><%Function Rpad(strText, chrPadding, intLength)		Rpad = right(String(len(strText),chrPadding) & strText, intLength)End FunctionResponse.Write("1234567890123456789" & vbcrlf)Response.Write("X" & Rpad(Request("t")," ",5) & "X")%></pre>

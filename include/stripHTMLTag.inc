@@ -1,0 +1,1 @@
+<%Function StripHTMLTag(ByVal sText)   Dim fFound      StripHTMLTag = ""   fFound = False   Do While InStr(sText, "<")      fFound = True      StripHTMLTag = StripHTMLTag & " " & Left(sText, InStr(sText, "<")-1)      sText = MID(sText, InStr(sText, ">") + 1)   Loop   StripHTMLTag = StripHTMLTag & sText   If Not fFound Then StripHTMLTag = sTextEnd Function%>
